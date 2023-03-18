@@ -1,0 +1,223 @@
+<!Doctype html>
+    <html>
+        <head>
+            <title>Mouse</title>
+            
+            <div class = "navigators">
+                <nav>
+                <a href = "home.html" class = navigation >Logo</a>
+                
+                </nav>
+            </div>
+            <h1 class ="category">Mouse </h1>
+            <link rel="stylesheet" href = "main.css">
+
+        </head>
+        <body>
+            
+            <div class = "products">
+                <div class = "filters">
+                    <div class= "sort">
+                        
+                        Sort by 
+                        <form class =dropdown>
+                        <select class = "select" id = "option">
+                            <option  value = "action">Action</option>
+                            <option  value = null disabled ></option>
+                            <option value = "actionb">Actionb</option>
+                            <option  value = null disabled></option>
+                            <option value = "actionc">Actionc</option>
+                        </select>
+                        </form>
+                         
+                        
+                        Sorted by:
+                        <div class="dropdown">
+                            <div class = "select">
+                                
+                                <span class="selected">Action</span>
+                                
+                                <div class= "caret"></div>
+                            </div>
+                     
+                            <ul class = "menu">
+                            <li class = "active"> Action</li>
+                            <li> Another action</li>
+                            <li>something else here </li>
+                            </ul>
+                        
+                     
+                        </div>
+                    
+                    </div>
+                    <script src ="jsmain.js"></script>
+                    
+                    <script type ="text/javascript">
+                    /*const dropdowns = document.querySelectorAll('.dropdown');
+                    
+                    dropdowns.forEach(dropdown =>{
+                            const select=dropdown.querySelector('.select');
+                            const caret=dropdown.querySelector('.caret');
+                            const menu=dropdown.querySelector('.menu');
+                            const options=dropdown.querySelectorAll('.menu li');
+                            const selected=dropdown.querySelector('.selected');
+                        
+                            select.addEventListener('click',()=>{
+                            select.classList.toggle('select-clicked');
+                            caret.classList.toggle('caret-rotate');
+                            menu.classList.toggle('menu-open');
+                            });
+                            options.forEach(option=>{
+                                option.addEventListener('click',()=>{
+                                    selected.innerText=option.innerText;
+                                    select.classList.remove('select-clicked');
+                                    select.classList.remove('caret-rotate');
+                                    select.classList.remove('menu-open');
+                                
+                                    options.forEach(option=>{
+                                        option.classList.remover('active');
+                                    });
+                                    options.classList.add('active');
+                                });
+                            });
+                        });*/ 
+                    
+                    </script>
+                    
+                    
+                </div>
+                <div class="container">
+                    
+                    <div class = "product-items" id ="products-items">
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "Mofi.png" alt = "product Image">
+                                </div>
+                                <div class= "product-btns">
+                                    <button type = "button" class= "btn-cart">add to cart
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                    <button type = "button" class= "btn-buy">buy now
+                                        <span><i class = "fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="product-info">
+                                <a href = "#" class = "product-name">W mouse</a>
+                                <p class = "product-price">LekeL</p>
+                            </div>
+                        </div>
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "Gpro.png" alt = "product Image">
+                                </div>
+                                <div class= "product-btns">
+                                    <button type = "button" class= "btn-cart">add to cart
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                    <button type = "button" class= "btn-buy">buy now
+                                        <span><i class = "fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="product-info">
+                                <a href = "#" class = "product-name">Logitech G Pro</a>
+                                <p class = "product-price">LekeL</p>
+                            </div>
+                        </div>
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "Corsair.png" alt = "product Image">
+                                </div>
+                                <div class= "product-btns">
+                                    <button type = "button" class= "btn-cart">add to cart
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                    <button type = "button" class= "btn-buy">buy now
+                                        <span><i class = "fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="product-info">
+                                <a href = "#" class = "product-name">CORSAIR Harpoon Pro </a>
+                                <p class = "product-price">LekeL</p>
+                            </div>
+                        </div>
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "hyper.png" alt = "product Image">
+
+                                </div>
+                                <div class= "product-btns">
+                                    <button type = "button" class= "btn-cart">add to cart
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                    <button type = "button" class= "btn-buy">buy now
+                                        <span><i class = "fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="product-info">
+                                <a href = "#" class = "product-name">HyperX Pulsefire Surge</a>
+                                <p class = "product-price">LekeL</p>
+                            </div>
+                        </div>
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "cooler.png" alt = "product Image " >
+                                </div>
+                                <div class= "product-btns">
+                                    <button type = "button" class= "btn-cart">add to cart
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                    <button type = "button" class= "btn-buy">buy now
+                                        <span><i class = "fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="product-info">
+                                <a href = "#" class = "product-name">COOLER MASTER MM110</a>
+                                <p class = "product-price">LekeL</p>
+                            </div>
+                        </div>
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "304.png" height="175px" width="175px" alt = "product Image">
+                                </div>
+                                <div class= "product-btns">
+                                    <button type = "button" class= "btn-cart">add to cart
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                    <button type = "button" class= "btn-buy">buy now
+                                        <span><i class = "fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="product-info">
+                                <a href = "#" class = "product-name">LOGITECH G304</a>
+                                <p class = "product-price">LekeL</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </body>
+    </html>
